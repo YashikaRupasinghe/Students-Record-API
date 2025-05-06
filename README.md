@@ -1,1 +1,3 @@
 # Students-Record-API
+
+This project is a containerized Student Records REST API with integrated observability using Prometheus and Grafana. The core API is built using Node.js and Express, allowing CRUD operations on student records. It exposes application metrics such as the number of students, request duration, and error counts using the prom-client library. These metrics are scraped by Prometheus and visualized in real-time on a pre-configured Grafana dashboard. The entire setup is orchestrated using Docker Compose, providing an end-to-end development and monitoring solution for understanding application performance, reliability, and behavior under different conditions.
